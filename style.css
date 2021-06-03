@@ -1,0 +1,158 @@
+.header {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+.flex {
+  display: flex;
+}
+.main-btn {
+  width: 240px;
+  margin: 60px auto 0;
+  background: #e4f587;
+  text-align: center;
+}
+
+.main-btn a {
+  display: block;
+  padding: 15px;
+  font-weight: bold;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: #333;
+}
+.main-btn a:hover {
+  background: #009944;
+  color: aliceblue;
+}
+
+.bet {
+  justify-content: space-between;
+}
+.header-seo {
+  font-size: 36px;
+}
+.header-tel {
+  font-weight: bold;
+}
+.header-adres {
+  font-weight: bold;
+}
+
+.gnav ul {
+  justify-content: space-around;
+  list-style: none;
+}
+.gnav li {
+  width: 160px;
+  text-align: center;
+  border-right: 1px solid;
+}
+.gnav li:last-child {
+  border-right: none;
+}
+.gnav a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+}
+.gnav .active a{
+    color: #009944;
+}
+.gnav a:hover {
+  background: #009944;
+  color: aliceblue;
+}
+/*gnav last*/
+
+.mv {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.item-wrap {
+  width: 960px;
+  margin: 40px auto;
+}
+.item-section-title {
+  font-size: 26px;
+  color: #009944;
+  text-align: center;
+}
+.item-section-title span {
+  font-size: 18px;
+  color: black;
+  display: block;
+  text-align: center;
+}
+.item-list {
+  width: 300px;
+}
+
+.news-wrap {
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news-list {
+  display: flex;
+  border-bottom: 1px dashed #000;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.news-list dt {
+  margin-right: 30px;
+  color: #aaa;
+}
+
+.news-list dd a {
+  text-decoration: none;
+  color: #333;
+}
+.news-list dd a:hover {
+  color: #009944;
+}
+
+.footer {
+  background-color: rgb(65, 36, 4);
+  padding: 60px 0 20px;
+  margin-top: 50px;
+  
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-inner {
+  width: 960px;
+  margin: 0 auto 80px;
+  color: #fff;
+}
+.footer-logo {
+  font-size: 36px;
+  font-weight: bold;
+}
+.footer-tel {
+  letter-spacing: 0.1em;
+}
+.footer-adress{
+    margin-right: 100px;
+}
+.footer-nav-list{
+    margin-right: 100px;
+}
+.footer-nav-list li{
+    margin-bottom: 40px;
+    
+}
+.footer-nav-list li:hover{
+    color: rgb(250, 11, 11);
+}
+.copylight{
+    text-align: center;
+}
