@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>問い合わせ</title>
+    </head>
+
+    <body>
+    <header class="header">
+   <div class="flex bet">
+    　<h1 class="header-seo">〇〇文具店</h1>
+    　
+　  
+     <div>
+     <p class="header-tel">TEL:123456789</p>
+     <address class="header-adress">住所：１１県２２市３３</address>
+    </div>
+   </div>
+
+    <nav class="gnav">
+        <ul class="flex">
+            <li><a href>ホーム</a></li>
+            <li><a href>商品一覧</a></li>
+            <li><a href>お知らせ</a></li>
+            <li><a href>よくある質問</a></li>
+            <li><a href>アクセス</a></li>
+            <li class="active"><a href>お問い合わせ</a></li>
+        </ul>
+    </nav>
+    </header>
+
+
+    <main class="contact-wrap">
+         <h2 class="contact-section-title"><span>contact</span>お問い合わせ</h2>  
+
+         <p class="tc">内容を入力し送信ボタンを押してください</p>
+
+         <form class="form-style" action="" method=""></form>
+
+         <div class="form-list">
+         <p>お名前</p>
+         <input type="text" name="name">
+        </div>
+
+        <div class="form-list">
+         <p>メールアドレス</p>
+         <input type="text" name="mail">
+        </div>
+
+        <div class="form-list">
+            <input type="radio" name="gender">男性
+            <input type="radio" name="gender">女性
+        </div>
+
+        <div class="form-list">
+            <p>お問い合わせ項目</p>
+            <select name="lists">
+                <option>お問い合わせ項目</option>
+                <option>お問い合わせ項目</option>
+                <option>お問い合わせ項目</option>
+                <option>お問い合わせ項目</option>
+                <option>お問い合わせ項目</option>
+            </select>
+           </div>
+
+           <div class="form-list">
+            <p>コメント</p>
+            <textarea name="comment" cols="30" rows="10"></textarea>
+           </div>
+
+           <p><input type="submit" value="送信する"></p>
+
+
+    </main>
+
+   <footer class="footer">
+       <div class="footer-inner flex"> 
+         <div class="footer-adress">
+          <p class="footer-logo">〇〇文具店</p>
+          <p class="footer-tel">TEL:123456789</p>
+          <address>住所：１１県２２市３３</address>
+         </div>
+          <nav class="footer-nav flex">
+           <ul class="footer-nav-list">
+            <li><a href>ホーム</a></li>
+            <li><a href>商品一覧</a></li>
+            <li><a href>お知らせ</a></li>
+           </ul>
+           <ul class="footer-nav-list">
+            <li><a href>よくある質問</a></li>
+            <li><a href>アクセス</a></li>
+            <li><a href>お問い合わせ</a></li>
+           </ul>
+          </nav>
+         </div>
+      <p class="copylight"><small>copylight@motokiyabunnguten</small></p>
+   </footer>
+      
+    </body>
+</html>
