@@ -156,3 +156,36 @@
 .copylight{
     text-align: center;
 }
+.tc{
+  text-align: center;
+}
+
+.contact-wrap{
+  width: 500px;
+  margin: 40px auto;
+  margin-bottom: 10px;
+}
+.contact-section-title{
+  font-size: 26px;
+  color: #009944;
+  text-align: center;
+}
+.contact-section-title span {
+  font-size: 18px;
+  color: black;
+  display: block;
+  text-align: center;
+}
+.form-style{
+  margin-top: 60px;
+}
+.form-list{
+  margin-bottom: 30px;
+}
+.form-list p{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-list name{
+  width: 500px;
+}
